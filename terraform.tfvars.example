@@ -1,0 +1,10 @@
+# Delete it just for testing purpose
+# Terraform variables for Auto Scaling Group configuration
+region                   ="us-east-1"
+asg_name                 = "nginxapp"
+environment              = "prod"
+desired_capacity         = 1
+min_size                 = 1
+max_size                 = 2
+max_instance_lifetime_days = 30
+instance_warmup_seconds  = 300

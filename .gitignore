@@ -1,0 +1,17 @@
+# Local .terraform directory with modules and plugins
+**/.terraform/*
+.terraform
+
+# Ignore terraform state files (can contain sensitive info)
+*.tfstate
+*.tfstate.*
+
+# Ignore variable definition files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore Terraform lock file (optional, depending on team preference)
+.terraform.lock.hcl
